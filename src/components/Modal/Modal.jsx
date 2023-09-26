@@ -19,7 +19,7 @@ export const Modal = ({ largeImageURL, closeModal }) => {
     <>
       <div className="Overlay" onClick={closeModal}></div>
       <div className="Modal">
-        <img src={largeImageURL} />
+        <img src={largeImageURL} alt="" />
         {/* <button onClick={closeModal} className="ModalCloseButton">
           Close dialog
         </button> */}
